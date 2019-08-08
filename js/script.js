@@ -1,0 +1,38 @@
+/*what kind of event will you be going to ?
+what will the temp be like ?
+since it will be blank you should wear something
+blank with a blank and blank.*/
+
+var eventType = prompt("what kind of event will this be?");
+var tempFahr = prompt("what will the temp be like?");
+var event = ["casual", "semi-formal", "formal"];
+var clothE = ["something comfy", "a polo", "a suit"];
+var clothT = ["a coat", "a jacket", "no jacket"];
+
+if (eventType == (event[0]) && (tempFahr <= 54)) {
+    console.log("It will be " + tempFahr + " degrees you should wear " + clothE[0] + " and  " + clothT[0] + ".")
+
+} else if (eventType == (event[0]) && (tempFahr <= 69)) {
+    console.log("It will be " + tempFahr + " degrees you should wear " + clothE[1] + " and  " + clothT[1] + ".")
+
+} else if (eventType == (event[0]) && (tempFahr >= 70)) {
+    console.log("It will be " + tempFahr + " degrees you should wear " + clothE[2] + " and  " + clothT[2] + ".")
+
+} else if (eventType == (event[1]) && (tempFahr <= 54)) {
+    console.log("It will be " + tempFahr + " degrees you should wear " + clothE[0] + " and  " + clothT[0] + ".")
+
+} else if (eventType == (event[1]) && (tempFahr <= 69)) {
+    console.log("It will be " + tempFahr + " degrees you should wear " + clothE[1] + " and  " + clothT[1] + ".")
+
+} else if (eventType == (event[1]) && (tempFahr >= 70)) {
+    console.log("It will be " + tempFahr + " degrees you should wear " + clothE[2] + " and  " + clothT[2] + ".")
+
+} else if (eventType == (event[2]) && (tempFahr <= 54)) {
+    console.log("It will be " + tempFahr + " degrees you should wear " + clothE[0] + " and  " + clothT[0] + ".")
+
+} else if (eventType == (event[2]) && (tempFahr <= 69)) {
+    console.log("It will be " + tempFahr + " degrees you should wear " + clothE[1] + " and  " + clothT[1] + ".")
+
+} else if (eventType == (event[2]) && (tempFahr >= 70)) {
+    console.log("It will be " + tempFahr + " degrees you should wear " + clothE[2] + " and  " + clothT[2] + ".")
+}
